@@ -1,8 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 80px;
-    background-color: #171a1f;
     font-family: Arial, sans-serif;
+    color: #211c15;
+    background: #fbf8f1;
+    line-height: 1.6;
 }
 
 .produk-container {
@@ -33,7 +39,7 @@ body {
 
 .gambar-produk {
     height: 190px;
-    background-color: #eeeeee;
+    background-color: white;
     position: relative;
     overflow: hidden;
 }
