@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    padding: 80px;
+    background-color: #171a1f;
+    font-family: Arial, sans-serif;
+}
+
+.produk-container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produk-card {
+    width: 220px;
+    background-color: #282f37;
+    border-radius: 5px;
+    overflow: hidden;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.produk-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.60);
+}
+
+.gambar-produk {
+    height: 190px;
+    background-color: #eeeeee;
+    position: relative;
+    overflow: hidden;
+}
+
+.gambar-produk img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.label-produk {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 8px;
+    background-color: #f52f70;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.produk-info {
+    padding: 12px;
+}
+
+.produk-info h3 {
+    margin: 0 0 5px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.merek {
+    margin: 0 0 10px;
+    color: #b5bbc1;
+    font-size: 11px;
+}
+
+.deskripsi {
+    margin: 0 0 12px;
+    color: #aeb5bb;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.kategori {
+    margin: 0 0 8px;
+    color: #54d49a;
+    font-size: 10px;
+}
+
+.harga {
+    margin: 0;
+    color: #54d49a;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.detail-produk {
+    max-width: 900px;
+    margin: 80px auto;
+    display: flex;
+    gap: 40px;
+    padding: 25px;
+    background-color: #282f37;
+    border-radius: 5px;
+    color: white;
+}
+
+.detail-gambar {
+    width: 45%;
+    height: 400px;
+    background-color: #eeeeee;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.detail-gambar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detail-info {
+    flex: 1;
+    padding: 10px;
+}
+
+.detail-merek {
+    margin: 0 0 10px;
+    color: #b5bbc1;
+    font-size: 14px;
+}
+
+.detail-info h1 {
+    margin: 0 0 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.detail-harga {
+    margin: 0 0 15px;
+    color: #54d49a;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.detail-kategori {
+    color: #54d49a;
+    font-size: 13px;
+}
+
+.detail-deskripsi {
+    color: #c0c5ca;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.detail-spesifikasi {
+    color: #c0c5ca;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.detail-spesifikasi h3 {
+    color: white;
+    font-size: 16px;
+}
+
+.detail-tombol {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.tombol-kembali {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 18px;
+    background-color: #f52f70;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.tombol-kembali:hover {
+    background-color: #d9235d;
+}
+
+.tombol-pesan {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 18px;
+    background-color: #f52f70;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.tombol-pesan:hover {
+    background-color: #d9235d;
+}
