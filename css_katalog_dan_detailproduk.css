@@ -78,6 +78,9 @@ body {
     color: #aeb5bb;
     font-size: 10px;
     line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .kategori {
