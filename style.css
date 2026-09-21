@@ -24,6 +24,8 @@ body {
     transition: 0.3s;
     cursor: pointer;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .produk-card:hover {
@@ -33,7 +35,7 @@ body {
 
 .gambar-produk {
     height: 190px;
-    background-color: #eeeeee;
+    background-color: white;
     position: relative;
     overflow: hidden;
 }
@@ -78,6 +80,9 @@ body {
     color: #aeb5bb;
     font-size: 10px;
     line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .kategori {
