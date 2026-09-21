@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemesanan - Harmoni Musik</title>
+    <link rel="stylesheet" href="css1.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>RESONA Music Store</h1>
+            <p>Toko Alat Musik Terlengkap dan Berkualitas</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html">Beranda</a>
+            <a href="katalog.html">Katalog</a>
+            <a href="pemesan1.html">Pemesanan</a>
+            <a href="kontak1.html">Kontak</a>
+        </div>
+    </nav>
+
+    <main class="container">
+
+        <section class="page-title">
+            <h2>Form Pemesanan</h2>
+            <p>
+                Isi formulir berikut untuk melakukan pemesanan
+                alat musik yang Anda inginkan.
+            </p>
+        </section>
+
+        <section class="order-section">
+
+            <form action="#" method="post">
+
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input
+                        type="text"
+                        id="nama"
+                        name="nama"
+                        placeholder="Masukkan nama lengkap"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Masukkan email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="telepon">Nomor Telepon</label>
+                    <input
+                        type="tel"
+                        id="telepon"
+                        name="telepon"
+                        placeholder="Contoh: 081234567890"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="produk">Kategori Produk</label>
+
+                    <select id="produk" name="produk" required>
+                        <option value="">-- Pilih Produk --</option>
+                        <option value="gitar">
+                            Gitar 
+                        </option>
+                        <option value="drum">
+                            Drum
+                        </option>
+                        <option value="piano">
+                            Piano 
+                        </option>
+                        <option value="biola">
+                            Biola
+                        </option>
+                        <option value="saxophone">
+                            Saxophone
+                        </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="produk">Jenis Produk</label>
+
+                    <select id="produk" name="produk" required>
+                        <option value="">-- Pilih Produk --</option>
+                        <option value="gitar-akustik">
+                            Gitar Akustik
+                        </option>
+                        <option value="gitar-elektrik">
+                            Gitar Elektrik
+                        </option>
+                        <option value="gitar-klasik">
+                            Gitar Klasik
+                        </option>
+                        <option value="drum-akustik">
+                            Drum Akustik
+                        </option>
+                         <option value="drum-elektrik">
+                            Drum Elektrik
+                        </option>
+                        <option value="piano-akustik">
+                            Piano Akustik
+                        </option>
+                        <option value="piano-elektrik">
+                            Piano Elektrik
+                        </option>
+                        <option value="biola-akustik">
+                            Biola Akustik
+                        </option>
+                        <option value="biola-elektrik">
+                            Biola Elektrik
+                        </option>
+                        <option value="saxophone-soprano">
+                            Saxophone Soprano
+                        </option>
+                        <option value="saxophone-alto">
+                            Saxophone Alto
+                        </option>
+                        <option value="saxophone-tenor">
+                            Saxophone Tenor
+                        </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="jumlah">Jumlah</label>
+                    <input
+                        type="number"
+                        id="jumlah"
+                        name="jumlah"
+                        min="1"
+                        value="1"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="alamat">Alamat Pengiriman</label>
+
+                    <textarea
+                        id="alamat"
+                        name="alamat"
+                        rows="5"
+                        placeholder="Masukkan alamat lengkap pengiriman"
+                        required
+                    ></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="pembayaran">Metode Pembayaran</label>
+
+                    <select id="pembayaran" name="pembayaran" required>
+                        <option value="">-- Pilih Pembayaran --</option>
+                        <option value="transfer">
+                            Transfer Bank
+                        </option>
+                        <option value="qris">
+                            QRIS
+                        </option>
+                        <option value="cod">
+                            COD
+                        </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="catatan">Catatan Tambahan</label>
+
+                    <textarea
+                        id="catatan"
+                        name="catatan"
+                        rows="4"
+                        placeholder="Catatan tambahan (opsional)"
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="btn">
+                    Pesan Sekarang
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Resona Music Store. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
