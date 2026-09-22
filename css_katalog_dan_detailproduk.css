@@ -2,6 +2,179 @@ html {
     scroll-behavior: smooth;
 }
 
+.navbar {
+    background: #fbf8f1;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.topbar {
+    background: #1f5c4e;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 6px 0;
+}
+
+.topbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbar-left,
+.topbar-right {
+    display: flex;
+    gap: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #211c15;
+    background: #fbf8f1;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #12332c;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 5px;
+}
+
+.nav-menu a {
+    color: #211c15;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.nav-menu a:hover,
+.nav-menu .active {
+    background: #e3eee9;
+    color: #1f5c4e;
+}
+
+.btn {
+    display: inline-block;
+    background: #c99a3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #a97d29;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+/* HERO */
+.hero {
+    background: #f4efe3;
+    padding: 70px 0;
+}
+
+.hero-content,
+.story-content,
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.subtitle {
+    color: #1f5c4e;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero-text > p:not(.subtitle),
+.section-title p,
+.product-card p,
+.features p,
+.about-text p,
+.value-card p,
+.page-title p {
+    color: #5b5346;
+}
+
+.hero-text > p:not(.subtitle) {
+    max-width: 600px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.btn-outline {
+    display: inline-block;
+    padding: 8px 20px;
+    border: 2px solid #1f5c4e;
+    color: #1f5c4e;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn-outline:hover {
+    background: #1f5c4e;
+    color: white;
+}
+
+.hero-image,
+.about-icon {
+    background: #dce9e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-image {
+    min-height: 350px;
+    border-radius: 30px;
+    flex-direction: column;
+    color: #1f5c4e;
+}
+
+.hero-icon {
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
 body {
     margin: 0;
     padding: 80px;
@@ -23,7 +196,7 @@ body {
 
 .produk-card {
     width: 220px;
-    background-color: #282f37;
+    background-color: #1f5c4e;
     border-radius: 5px;
     overflow: hidden;
     color: white;
@@ -56,7 +229,7 @@ body {
     top: 10px;
     left: 10px;
     padding: 5px 8px;
-    background-color: #f52f70;
+    background-color: #c99a3c;
     color: white;
     font-size: 10px;
     font-weight: bold;
@@ -75,13 +248,13 @@ body {
 
 .merek {
     margin: 0 0 10px;
-    color: #b5bbc1;
+    color: white;
     font-size: 11px;
 }
 
 .deskripsi {
     margin: 0 0 12px;
-    color: #aeb5bb;
+    color: white;
     font-size: 10px;
     line-height: 1.5;
     white-space: nowrap;
@@ -91,13 +264,13 @@ body {
 
 .kategori {
     margin: 0 0 8px;
-    color: #54d49a;
+    color: #c99a3c;
     font-size: 10px;
 }
 
 .harga {
     margin: 0;
-    color: #54d49a;
+    color: white;
     font-size: 16px;
     font-weight: bold;
 }
@@ -108,7 +281,7 @@ body {
     display: flex;
     gap: 40px;
     padding: 25px;
-    background-color: #282f37;
+    background-color: #1f5c4e;
     border-radius: 5px;
     color: white;
 }
@@ -184,7 +357,7 @@ body {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 18px;
-    background-color: #f52f70;
+    background-color: #c99a3c;
     color: white;
     text-decoration: none;
     border-radius: 3px;
@@ -192,14 +365,14 @@ body {
 }
 
 .tombol-kembali:hover {
-    background-color: #d9235d;
+    background-color: #a97d29;
 }
 
 .tombol-pesan {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 18px;
-    background-color: #f52f70;
+    background-color: #c99a3c;
     color: white;
     text-decoration: none;
     border-radius: 3px;
@@ -207,5 +380,5 @@ body {
 }
 
 .tombol-pesan:hover {
-    background-color: #d9235d;
+    background-color: #a97d29;
 }
