@@ -105,12 +105,14 @@ main {
 
 .page-title h2 {
     margin-top: 0;
-    color: white;
+    text-align: center;
+    color: #c99a3c;
 }
 
 .page-title p {
     line-height: 1.6;
-    color: #c99a3c;
+    text-align: center;
+    color: white;
 }
 
 
@@ -132,7 +134,9 @@ main {
 
 .contact-info h3 {
     margin-top: 0;
-    color: white;
+    color: #c99a3c;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .info-item {
@@ -141,13 +145,13 @@ main {
 
 .info-item h4 {
     margin-bottom: 5px;
-    color: white;
+    color: #c99a3c;
 }
 
 .info-item p {
     margin: 5px 0;
     line-height: 1.6;
-    color: #c99a3c;
+    color: white;
 }
 
 
