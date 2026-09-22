@@ -30,26 +30,6 @@ h1, h2, h3 {
     color: #12332c;
 }
 
-/* TOPBAR */
-.topbar {
-    background: #1f5c4e;
-    color: white;
-    font-size: 10px;
-    font-weight: bold;
-    padding: 6px 0;
-}
-
-.topbar .container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.topbar-left,
-.topbar-right {
-    display: flex;
-    gap: 20px;
-}
-
 /* NAVBAR */
 .navbar {
     background: #fbf8f1;
