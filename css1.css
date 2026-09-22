@@ -93,9 +93,7 @@ a {
 }
 
 
-/* =========================
-   MAIN
-========================= */
+/*MAIN*/
 
 main {
     padding: 35px 0;
@@ -122,9 +120,7 @@ main {
 }
 
 
-/* =========================
-   CONTACT
-========================= */
+/*KONTAK*/
 
 .contact-section {
     display: flex;
@@ -161,9 +157,7 @@ main {
 }
 
 
-/* =========================
-   FORM
-========================= */
+/*FORM*/
 
 .form-group {
     margin-bottom: 18px;
@@ -211,4 +205,106 @@ footer {
 .copyright p {
     color: #f4efe3;
     font-size: 13px;
+}
+
+/*RESPONSIVITAS (MEDIA QUERIES)*/
+
+/* 1. TABLET (Layar maks. 768px) */
+@media screen and (max-width: 768px) {
+    
+    .container {
+        width: 92%;
+    }
+
+    .nav-container {
+        flex-wrap: wrap;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: #12332c;
+    }
+
+    .nav-menu {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        padding-top: 15px;
+    }
+
+    #menu-toggle:checked ~ .nav-menu {
+        display: flex;
+    }
+
+    main {
+        padding: 20px 0;
+    }
+
+    .page-title {
+        padding: 20px 15px;
+        margin-bottom: 20px;
+    }
+
+    .page-title h2 {
+        font-size: 22px;
+    }
+
+    .contact-info,
+    .order-section {
+        padding: 20px;
+    }
+}
+
+
+/* 2. HP (Layar maks. 480px) */
+@media screen and (max-width: 480px) {
+
+    .container {
+        width: 95%;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .page-title {
+        padding: 15px 10px;
+    }
+
+    .page-title h2 {
+        font-size: 18px;
+    }
+
+    .page-title p {
+        font-size: 13px;
+    }
+
+    .contact-info,
+    .order-section {
+        padding: 15px;
+    }
+
+    .form-group {
+        margin-bottom: 14px;
+    }
+
+    .form-group label {
+        font-size: 14px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+    }
 }

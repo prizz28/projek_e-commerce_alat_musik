@@ -458,3 +458,157 @@ footer {
     color: #f4efe3;
     font-size: 13px;
 }
+
+/*RESPONSIVITAS (MEDIA QUERIES)*/
+
+/* 1. TABLET (Layar maks. 768px) */
+@media screen and (max-width: 768px) {
+    
+    .container {
+        width: 92%;
+    }
+
+    .topbar .container {
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+
+    .topbar-left,
+    .topbar-right {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .nav-container {
+        flex-wrap: wrap;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: #12332c;
+    }
+
+    .nav-menu {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        padding-top: 15px;
+    }
+
+    #menu-toggle:checked ~ .nav-menu {
+        display: flex;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero-content,
+    .story-content,
+    .about-content {
+        grid-template-columns: 1fr; 
+        gap: 30px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-image {
+        min-height: 280px;
+    }
+
+    .produk-container {
+        margin: 30px auto;
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    .produk-card {
+        width: calc(50% - 15px); 
+    }
+
+    .detail-produk {
+        flex-direction: column;
+        max-width: 95%;
+        margin: 30px auto;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .detail-gambar {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+
+/* 2. HP (Layar maks. 480px) */
+@media screen and (max-width: 480px) {
+
+    .hero {
+        padding: 35px 0;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero-image {
+        min-height: 220px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero-buttons .btn,
+    .hero-buttons .btn-outline {
+        text-align: center;
+        width: 100%;
+    }
+
+    .produk-card {
+        width: 100%; 
+    }
+
+    .gambar-produk {
+        height: 200px;
+    }
+
+    .detail-produk {
+        margin: 15px auto;
+        padding: 15px;
+    }
+
+    .detail-gambar {
+        height: 220px;
+    }
+
+    .detail-info h1 {
+        font-size: 22px;
+    }
+
+    .detail-harga {
+        font-size: 20px;
+    }
+
+    .detail-tombol {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .tombol-kembali,
+    .tombol-pesan {
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+}

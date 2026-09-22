@@ -444,3 +444,143 @@ footer {
     margin: 10px 0;
 
 }
+
+/* RESPOMSIVITAS (MEDIA QUERIES)*/
+
+/* TABLET (Maks. 768px) */
+@media screen and (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        color: #12332c;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #fbf8f1;
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 100;
+        gap: 10px;
+    }
+
+    #menu-toggle:checked ~ .nav-menu {
+        display: flex;
+    }
+
+    .nav-menu a {
+        display: block;
+        padding: 10px 15px;
+    }
+
+    .navbar .btn {
+        display: none; 
+    }
+/
+    .hero-content,
+    .story-content,
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .value-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-list {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    blockquote {
+        font-size: 18px;
+    }
+}
+
+
+/* HP (Maks. 480px) */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 92%;
+    }
+
+    .hero {
+        padding: 40px 0;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn, 
+    .btn-outline {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-image {
+        min-height: 250px;
+    }
+
+    .hero-icon {
+        font-size: 60px;
+    }
+
+    .section,
+    .story,
+    .about,
+    .values,
+    .page-title {
+        padding: 45px 0;
+    }
+
+    .section-title h2,
+    .story h2,
+    .about-text h2 {
+        font-size: 26px;
+    }
+
+    .page-title h1 {
+        font-size: 30px;
+    }
+
+    .product-container,
+    .features {
+        grid-template-columns: 1fr;
+    }
+
+    .about-icon {
+        height: 220px;
+        font-size: 70px;
+    }
+
+    blockquote {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+}
