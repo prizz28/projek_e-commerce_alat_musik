@@ -348,7 +348,7 @@ body {
 .detail-gambar {
     width: 45%;
     height: 400px;
-    background-color: #eeeeee;
+    background-color: white;
     overflow: hidden;
     border-radius: 5px;
 }
