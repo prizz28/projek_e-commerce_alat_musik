@@ -518,6 +518,7 @@ footer {
     }
 }
 
+/* HP (Maks. 480px) */
 @media screen and (max-width: 480px) {
     .container {
         width: 92%;
