@@ -73,6 +73,7 @@ a {
     border-radius: 25px;
     font-weight: bold;
     cursor: pointer;
+    border: none;
 }
 
 .btn:hover {
@@ -167,6 +168,7 @@ main {
     display: block;
     margin-bottom: 7px;
     font-weight: bold;
+    color: #c99a3c;
 }
 
 .form-group input,
@@ -189,25 +191,6 @@ main {
 .form-group textarea:focus {
     outline: none;
     border-color: #fbff00;
-}
-
-
-/* =========================
-   BUTTON
-========================= */
-
-.btn {
-    display: inline-block;
-    background: #c99a3c;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 25px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background: #72717a;
 }
 
 footer {
