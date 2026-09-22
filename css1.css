@@ -1,12 +1,18 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #171a1f;
-    color: white;
+    color: #211c15;
+    background: #fbf8f1;
+    line-height: 1.6;
 }
 
 a {
@@ -16,39 +22,11 @@ a {
 
 .container {
     width: 90%;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
 }
 
-
-/* =========================
-   TOPBAR
-========================= */
-
-.topbar {
-    background: #1f5c4e;
-    color: white;
-    font-size: 10px;
-    font-weight: bold;
-    padding: 6px 0;
-}
-
-.topbar .container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.topbar-left,
-.topbar-right {
-    display: flex;
-    gap: 20px;
-}
-
-
-/* =========================
-   NAVBAR
-========================= */
-
+/* NAVBAR */
 .navbar {
     background: #fbf8f1;
     border-bottom: 1px solid #ddd;
@@ -87,6 +65,20 @@ a {
     color: #1f5c4e;
 }
 
+.btn {
+    display: inline-block;
+    background: #c99a3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #a97d29;
+}
+
 #menu-toggle {
     display: none;
 }
@@ -118,6 +110,7 @@ main {
 
 .page-title p {
     line-height: 1.6;
+    color: #c99a3c;
 }
 
 
@@ -154,6 +147,7 @@ main {
 .info-item p {
     margin: 5px 0;
     line-height: 1.6;
+    color: #c99a3c;
 }
 
 
