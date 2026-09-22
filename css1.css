@@ -105,7 +105,7 @@ main {
 }
 
 .page-title {
-    background-color: #282f37;
+    background-color: #1f5c4e;
     padding: 25px;
     margin-bottom: 25px;
     border-radius: 8px;
@@ -134,7 +134,7 @@ main {
 .contact-info,
 .contact-form,
 .order-section {
-    background-color: #282f37;
+    background-color: #1f5c4e;
     padding: 25px;
     border-radius: 8px;
 }
