@@ -1,11 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
     scroll-behavior: smooth;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .navbar {
     background: #fbf8f1;
     border-bottom: 1px solid #ddd;
     padding: 15px 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #12332c;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 5px;
+}
+
+.nav-menu a {
+    color: #211c15;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.nav-menu a:hover,
+.nav-menu .active {
+    background: #e3eee9;
+    color: #1f5c4e;
+}
+
+.btn {
+    display: inline-block;
+    background: #c99a3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #a97d29;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
 }
 
 .topbar {
@@ -25,13 +91,6 @@ html {
 .topbar-right {
     display: flex;
     gap: 20px;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    color: #211c15;
-    background: #fbf8f1;
-    line-height: 1.6;
 }
 
 a {
@@ -177,7 +236,6 @@ a {
 
 body {
     margin: 0;
-    padding: 80px;
     font-family: Arial, sans-serif;
     color: #211c15;
     background: #fbf8f1;
@@ -185,8 +243,9 @@ body {
 }
 
 .produk-container {
-    max-width: 900px;
-    margin: auto;
+    max-width: 1200px; 
+    margin: 40px auto;
+    padding: 0 20px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
