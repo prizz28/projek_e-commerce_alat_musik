@@ -2,11 +2,11 @@ E-Commerce Alat Musik
 
 Laporan Pembagian Kerja
 
-- Anggota 1 (Nama/NIM)
+- Anggota 1 (Zahratun Nisa/2510131220006)
   Penanggung jawab Halaman Utama & Header/Footer Global
   Halaman yang dibuat:
-  1.
-  2.
+  1. index.html
+  2. tentang.html
 
 - Anggota 2 (Muhammad Prisqi Aderiana/2510131110006)
   Penanggung jawab Halaman Detail Katalog/Katalog & Sistem Layout CSS
