@@ -292,7 +292,7 @@ body {
     color: white;
     font-size: 10px;
     font-weight: bold;
-    border-radius: 2px;
+    border-radius: 20px;
 }
 
 .produk-info {
@@ -378,24 +378,24 @@ body {
 
 .detail-harga {
     margin: 0 0 15px;
-    color: #54d49a;
+    color: white;
     font-size: 25px;
     font-weight: bold;
 }
 
 .detail-kategori {
-    color: #54d49a;
+    color: #c99a3c;
     font-size: 13px;
 }
 
 .detail-deskripsi {
-    color: #c0c5ca;
+    color: white;
     font-size: 14px;
     line-height: 1.7;
 }
 
 .detail-spesifikasi {
-    color: #c0c5ca;
+    color: white;
     font-size: 14px;
     line-height: 1.7;
 }
@@ -419,8 +419,9 @@ body {
     background-color: #c99a3c;
     color: white;
     text-decoration: none;
-    border-radius: 3px;
-    font-size: 13px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .tombol-kembali:hover {
@@ -434,8 +435,9 @@ body {
     background-color: #c99a3c;
     color: white;
     text-decoration: none;
-    border-radius: 3px;
-    font-size: 13px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .tombol-pesan:hover {
