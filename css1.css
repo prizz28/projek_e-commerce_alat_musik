@@ -1,7 +1,3 @@
-/* =========================
-   RESET DAN DASAR
-========================= */
-
 * {
     box-sizing: border-box;
 }
@@ -13,6 +9,11 @@ body {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .container {
     width: 90%;
     max-width: 1100px;
@@ -21,24 +22,26 @@ body {
 
 
 /* =========================
-   HEADER
+   TOPBAR
 ========================= */
 
-header {
-    background-color: #2e557d;
+.topbar {
+    background: #1f5c4e;
     color: white;
-    text-align: center;
-    padding: 35px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 6px 0;
 }
 
-header h1 {
-    margin: 0 0 10px;
-    font-size: 32px;
+.topbar .container {
+    display: flex;
+    justify-content: space-between;
 }
 
-header p {
-    margin: 0;
-    font-size: 16px;
+.topbar-left,
+.topbar-right {
+    display: flex;
+    gap: 20px;
 }
 
 
@@ -46,25 +49,50 @@ header p {
    NAVBAR
 ========================= */
 
-nav {
-    background-color: #1f3d5a;
+.navbar {
+    background: #fbf8f1;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
 }
 
 .nav-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: 25px;
+    position: relative;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 16px 20px;
-    display: block;
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #12332c;
 }
 
-nav a:hover {
-    background-color: #8d9095;
+.nav-menu {
+    display: flex;
+    gap: 5px;
+}
+
+.nav-menu a {
+    color: #211c15;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.nav-menu a:hover,
+.nav-menu .active {
+    background: #e3eee9;
+    color: #1f5c4e;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
 }
 
 
@@ -174,128 +202,30 @@ main {
 ========================= */
 
 .btn {
-    border: none;
-    background-color: #2e557d;
+    display: inline-block;
+    background: #c99a3c;
     color: white;
-    padding: 12px 25px;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
     cursor: pointer;
-    font-size: 15px;
 }
 
 .btn:hover {
-    background-color: #1f3d5a;
+    background: #a97d29;
 }
-
-
-/* =========================
-   FOOTER
-========================= */
 
 footer {
-    background-color: #282f37;
+    background: #12332c;
     color: white;
     text-align: center;
-    padding: 20px;
-    margin-top: 30px;
 }
 
-footer p {
-    margin: 0;
+.copyright {
+    padding: 15px;
 }
 
-
-/* =========================
-   RESPONSIVE TABLET
-   Maksimal 768px
-========================= */
-
-@media screen and (max-width: 768px) {
-
-    header h1 {
-        font-size: 27px;
-    }
-
-    nav a {
-        padding: 14px 12px;
-        font-size: 14px;
-    }
-
-    .contact-section {
-        grid-template-columns: 1fr;
-    }
-
-    .page-title,
-    .contact-info,
-    .contact-form,
-    .order-section {
-        padding: 20px;
-    }
-
-}
-
-
-/* =========================
-   RESPONSIVE HP
-   Maksimal 480px
-========================= */
-
-@media screen and (max-width: 480px) {
-
-    .container {
-        width: 92%;
-    }
-
-    header {
-        padding: 25px 15px;
-    }
-
-    header h1 {
-        font-size: 23px;
-    }
-
-    header p {
-        font-size: 14px;
-    }
-
-    .nav-container {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    nav a {
-        text-align: center;
-        padding: 12px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    }
-
-    main {
-        padding: 20px 0;
-    }
-
-    .page-title {
-        padding: 18px;
-    }
-
-    .page-title h2 {
-        font-size: 22px;
-    }
-
-    .contact-info,
-    .contact-form,
-    .order-section {
-        padding: 18px;
-    }
-
-    .form-group input,
-    .form-group select,
-    .form-group textarea {
-        font-size: 14px;
-        padding: 10px;
-    }
-
-    .btn {
-        width: 100%;
-    }
-
+.copyright p {
+    color: #f4efe3;
+    font-size: 13px;
 }
