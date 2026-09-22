@@ -8,11 +8,11 @@ Laporan Pembagian Kerja
   1.
   2.
 
-- Anggota 2 (Nama/NIM)
+- Anggota 2 (Muhammad Prisqi Aderiana/2510131110006)
   Penanggung jawab Halaman Detail Katalog/Katalog & Sistem Layout CSS
   Halaman yang dibuat:
-  1.
-  2.
+  1. Katalog.html
+  2. produk1-12.html
 
 -  Anggota 3 (Nama/NIM)
   Penanggung jawab Halaman Form/Kontak/Transaksi & Responsivitas Media Queries
