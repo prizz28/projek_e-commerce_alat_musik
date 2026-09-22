@@ -443,3 +443,18 @@ body {
 .tombol-pesan:hover {
     background-color: #a97d29;
 }
+
+footer {
+    background: #12332c;
+    color: white;
+    text-align: center;
+}
+
+.copyright {
+    padding: 15px;
+}
+
+.copyright p {
+    color: #f4efe3;
+    font-size: 13px;
+}
