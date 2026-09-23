@@ -383,14 +383,19 @@ footer {
 
 /* HALAMAN TENTANG */
 .page-title {
-    background: #f4efe3;
+    background: #12332c;
     padding: 70px 0;
     text-align: center;
 }
 
 .page-title h1 {
+    color: white;
     font-size: 45px;
     margin-bottom: 15px;
+}
+
+.page-title p {
+    color: #c99a3c;
 }
 
 .about {
